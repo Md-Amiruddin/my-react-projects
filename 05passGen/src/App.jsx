@@ -10,7 +10,7 @@ function passwordGenerator(passlength , numbersAllowed, specialAllowed) {
     if(n<3 && specialAllowed){
 
       let possibleSpecialChars = "!@#$%^&*()_+"
-      let randomIdx = (Math.floor(Math.random() * 10)) % possibleSpecialChars.length;
+      let randomIdx = (Math.floor(Math.random() * 30)) % possibleSpecialChars.length;
       password += possibleSpecialChars.charAt(randomIdx);
     
     }else if((n>3 && n<6) && numbersAllowed){
