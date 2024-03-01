@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart, faMoneyBill1, faLemon } from '@fortawesome/free-regular-svg-icons'
+import { faDisplay, faPeopleGroup, faShieldHalved, faHandshakeAngle } from '@fortawesome/free-solid-svg-icons'
+import { HelpCard } from '../index'
 
 export function Content() {
   return (
@@ -77,7 +79,7 @@ export function Content() {
       </div>
 
       {/* Latest Donations */}
-      <div className='bg-background py-10 px-9'>
+      <div className='bg-background py-10 md:py-20 px-9 md:px-24'>
         <div className='uppercase text-3xl md:text-4xl tracking-wider mb-10 pl-4 mr-12 border-accent/70 border-l-4'>
           Latest Donations
         </div>
@@ -134,7 +136,30 @@ export function Content() {
           </div>
         </div>
       </div>
-      
+
+      {/* How can you help? */}
+      <section className='bg-accent py-10 md:pt-14 px-9 md:px-28 space-y-8 md:space-y-16'>
+        <div className='text-3xl md:text-4xl md:tracking-wider font-bold uppercase text-center'>How can you help?</div>
+        <div className='space-y-12 md:space-y-0 md:flex'>
+          <div className='md:flex-1'>
+            <div className='space-y-3'>
+              <div className='uppercase text-xl font-semibold text-center md:text-left'>Help for a Cause</div>
+              <div className='text-justify font-light leading-relaxed md:leading-normal text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa ab unde dolores. Odio iusto voluptatum maiores dolore, cumque alias consequatur tempora perferendis modi iure magni, corporis molestiae, autem ipsum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo modi amet aut laudantium eius, nam nulla quisquam veritatis expedita? Qui.</div>
+            </div>
+
+            <div className='mt-8 text-center grid grid-cols-2 gap-12 md:gap-5 md:flex md:flex-wrap'>
+              <HelpCard setIcon={faDisplay} setTitle={'Media'} />
+              <HelpCard setIcon={faPeopleGroup} setTitle={'Mobilization'} />
+              <HelpCard setIcon={faShieldHalved} setTitle={'Protection'} />
+              <HelpCard setIcon={faHandshakeAngle} setTitle={'Support'} />
+            </div>
+          </div>
+
+          <div className='md:flex-1 md:pl-16'>
+            <img className='object-cover rounded-lg align-top' src="https://images.pexels.com/photos/6994994/pexels-photo-6994994.jpeg?fm=png&w=1280&h=853" alt="" />
+          </div>
+        </div>
+      </section>
     </>
   )
 }

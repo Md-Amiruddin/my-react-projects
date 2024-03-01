@@ -18,7 +18,7 @@ export function Header() {
         <div className='text-background space-x-4 mr-6 h-full text-sm hidden md:inline-block lg:text-base'>
           {
             headerItems.map((item) => (
-              <button key={item} className={`border-b-[4px] px-4 rounded-sm text-xs md:text-base font-medium object-cover h-full border-b-accent`}>
+              <button key={item} className={`hover:border-b-[4px] px-4 rounded-sm text-xs md:text-base font-medium object-cover h-full border-b-accent`}>
                 {item}
               </button>
             ))
