@@ -78,40 +78,63 @@ export function Content() {
 
       {/* Latest Donations */}
       <div className='bg-background py-10 px-9'>
-        <div className='uppercase text-3xl md:text-5xl tracking-wider mb-10 pl-4 mr-12 border-accent/70 md:mt-8 border-l-4'>
+        <div className='uppercase text-3xl md:text-4xl tracking-wider mb-10 pl-4 mr-12 border-accent/70 border-l-4'>
           Latest Donations
         </div>
-        <div className='flex align-middle pb-6'>
-          <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='h-14 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?fm=png&w=640&h=960' /></div>
-          <div className= 'ml-4 space-y-1'>
-            <div className='font-semibold pl-1'>Jack Daniels</div>
-            <div className='flex font-extrabold text-xs'>
-              <div className='bg-accent py-2 px-4 rounded-l-md'>Donated</div>
-              <div className='bg-text text-white/80 py-2 px-4 rounded-r-md text-center'>Rs. 1000</div>
+        <div className='md:flex md:justify-evenly'>
+          <div className=' inline-flex md:flex-col md:items-center md:space-y-3 md:space-x-0 align-middle pb-6 md:pb-0'>
+            <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='md:h-20 h-14 md:w-20 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?fm=png&w=640&h=960' /></div>
+            <div className='ml-4 space-y-1 md:space-y-2 md:text-xl'>
+              <div className='font-semibold pl-1 md:text-center'>Jack Daniels</div>
+              <div className='flex font-extrabold text-xs md:text-[12px]'>
+                <div className='bg-accent py-2 md:py-3 px-4 md:px-6 rounded-l-md'>Donated</div>
+                <div className='bg-text text-white/80 py-2 md:py-3 px-4 md:px-6 rounded-r-md text-center'>Rs. 1000</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className='flex align-middle pb-6'>
-          <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='h-14 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2080382/pexels-photo-2080382.jpeg?fm=png&w=640&h=844' /></div>
-          <div className=' ml-4 space-y-1'>
-            <div className='font-semibold pl-1'>John Doe</div>
-            <div className='flex font-extrabold text-xs'>
-              <div className='bg-accent py-2 px-4 rounded-l-md'>Donated</div>
-              <div className='bg-text text-white/80 py-2 px-4 rounded-r-md text-center'>Rs. 100</div>
+          <div className=' inline-flex md:flex-col md:items-center md:space-y-3 md:space-x-0 align-middle pb-6 md:pb-0'>
+            <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='md:h-20 h-14 md:w-20 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?fm=png&w=640&h=960' /></div>
+            <div className='ml-4 space-y-1 md:space-y-2 md:text-xl'>
+              <div className='font-semibold pl-1 md:text-center'>Jack Daniels</div>
+              <div className='flex font-extrabold text-xs md:text-[12px]'>
+                <div className='bg-accent py-2 md:py-3 px-4 md:px-6 rounded-l-md'>Donated</div>
+                <div className='bg-text text-white/80 py-2 md:py-3 px-4 md:px-6 rounded-r-md text-center'>Rs. 1000</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className='flex align-middle pb-6'>
-          <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='h-14 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2179241/pexels-photo-2179241.jpeg?fm=png&w=640&h=960' /></div>
-          <div className=' ml-4 space-y-1'>
-            <div className='font-semibold pl-1'>Bob Doe</div>
-            <div className='flex font-extrabold text-xs'>
-              <div className='bg-accent py-2 px-4 rounded-l-md'>Donated</div>
-              <div className='bg-text text-white/80 py-2 px-4 rounded-r-md text-center'>Rs. 5000</div>
+          <div className=' inline-flex md:flex-col md:items-center md:space-y-3 md:space-x-0 align-middle pb-6 md:pb-0'>
+            <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='md:h-20 h-14 md:w-20 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?fm=png&w=640&h=960' /></div>
+            <div className='ml-4 space-y-1 md:space-y-2 md:text-xl'>
+              <div className='font-semibold pl-1 md:text-center'>Jack Daniels</div>
+              <div className='flex font-extrabold text-xs md:text-[12px]'>
+                <div className='bg-accent py-2 md:py-3 px-4 md:px-6 rounded-l-md'>Donated</div>
+                <div className='bg-text text-white/80 py-2 md:py-3 px-4 md:px-6 rounded-r-md text-center'>Rs. 1000</div>
+              </div>
+            </div>
+          </div>
+          <div className=' inline-flex md:flex-col md:items-center md:space-y-3 md:space-x-0 align-middle pb-6 md:pb-0'>
+            <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='md:h-20 h-14 md:w-20 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?fm=png&w=640&h=960' /></div>
+            <div className='ml-4 space-y-1 md:space-y-2 md:text-xl'>
+              <div className='font-semibold pl-1 md:text-center'>Jack Daniels</div>
+              <div className='flex font-extrabold text-xs md:text-[12px]'>
+                <div className='bg-accent py-2 md:py-3 px-4 md:px-6 rounded-l-md'>Donated</div>
+                <div className='bg-text text-white/80 py-2 md:py-3 px-4 md:px-6 rounded-r-md text-center'>Rs. 1000</div>
+              </div>
+            </div>
+          </div>
+          <div className=' inline-flex md:flex-col md:items-center md:space-y-3 md:space-x-0 align-middle pb-6 md:pb-0'>
+            <div className='p-2 border-2 border-gray-300 rounded-full shadow-md'><img className='md:h-20 h-14 md:w-20 w-14 rounded-full object-cover object-top' src='https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?fm=png&w=640&h=960' /></div>
+            <div className='ml-4 space-y-1 md:space-y-2 md:text-xl'>
+              <div className='font-semibold pl-1 md:text-center'>Jack Daniels</div>
+              <div className='flex font-extrabold text-xs md:text-[12px]'>
+                <div className='bg-accent py-2 md:py-3 px-4 md:px-6 rounded-l-md'>Donated</div>
+                <div className='bg-text text-white/80 py-2 md:py-3 px-4 md:px-6 rounded-r-md text-center'>Rs. 1000</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      
     </>
   )
 }
