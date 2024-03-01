@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Logo({width = '100px'}) {
+function Logo({classNames}) {
   return (
-    <div>logo</div>
+    <div className={classNames}>
+      <img className='object-contain' src='https://cdn.textstudio.com/output/sample/normal/3/9/0/5/blog-logo-73-5093.png'/>
+    </div>
   )
 }
 
