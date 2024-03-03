@@ -25,13 +25,13 @@ function App() {
   }, [])
 
   return !loading ? (
-    <div className="min-h-screen relative flex flex-wrap content-between bg-gray-400">
-      <div className="w-full block">
+    <div className="min-h-screen flex content-between bg-gray-400">
+      <div className="w-full flex flex-col bg-yellow-300">
         <Header />
         <main>
           <Outlet />
         </main>
-        <div className="absolute bottom-0 left-0 right-0">
+        <div className="mt-auto">
           <Footer/>
         </div>
       </div>

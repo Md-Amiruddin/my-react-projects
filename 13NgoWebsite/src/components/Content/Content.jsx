@@ -1,8 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart, faMoneyBill1, faLemon } from '@fortawesome/free-regular-svg-icons'
-import { faDisplay, faPeopleGroup, faShieldHalved, faHandshakeAngle } from '@fortawesome/free-solid-svg-icons'
-import { HelpCard } from '../index'
+import { faDisplay, faPeopleGroup, faShieldHalved, faHandshakeAngle,} from '@fortawesome/free-solid-svg-icons'
+import { HelpCard, MostRecentUpdatesCard } from '../index'
 
 export function Content() {
   return (
@@ -159,6 +159,15 @@ export function Content() {
             <img className='object-cover rounded-lg align-top' src="https://images.pexels.com/photos/6994994/pexels-photo-6994994.jpeg?fm=png&w=1280&h=853" alt="" />
           </div>
         </div>
+      </section>
+
+      {/* Most recent updates */}
+      <section className='bg-background py-10 md:pt-14 px-9 md:px-28 space-y-8 md:space-y-16'>
+        <div className='text-2xl md:text-4xl md:tracking-wider font-bold uppercase text-center'>Most recent updates</div>
+        <MostRecentUpdatesCard/>
+        <MostRecentUpdatesCard/>
+        <MostRecentUpdatesCard/>
+        <MostRecentUpdatesCard/>
       </section>
     </>
   )
