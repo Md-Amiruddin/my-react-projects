@@ -164,7 +164,7 @@ export function Content() {
       {/* Most recent updates */}
       <section className='bg-background py-10 md:pt-14 px-9 md:px-28 space-y-8 md:space-y-16'>
         <div className='text-2xl md:text-4xl md:tracking-wider font-bold uppercase text-center'>Most recent updates</div>
-        <div className='grid grid-rows-4 md:grid-cols-4 gap-6 md:gap-12'>
+        <div className='grid grid-rows-4 md:grid-rows-none md:grid-cols-4 gap-6 md:gap-12'>
           <MostRecentUpdatesCard/>
           <MostRecentUpdatesCard/>
           <MostRecentUpdatesCard/>
